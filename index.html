@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Neucha&display=swap" rel="stylesheet">
+
+  <title>Джаспер и Песчаник — Крафтовый бар в Суздале</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="page">
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+  <div class="container header__container">
+    <nav class="nav container">
+      <ul class="nav__list">
+        <li><a href="#about" class="nav__link">О баре</a></li>
+        <li><button class="nav__link nav__link--button" id="openMenu">Меню</button></li>
+        <li><a href="#contacts" class="nav__link">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero__left">
+    <div class="hero__text">
+      <h1 class="hero__title">
+        Крафтовый бар  <br>
+        в Суздале
+      </h1>
+
+      <p class="hero__subtitle">
+        
+      </p>
+    </div>
+  </div>
+
+  <div class="hero__right">
+    <div class="hero__slider">
+      <div class="hero__slide is-active">
+        <img src="./image/5.webp" alt="">
+      </div>
+      <div class="hero__slide">
+        <img src="./image/2webp.webp" alt="">
+      </div>
+      <div class="hero__slide">
+        <img src="./image/3.webp" alt="">
+      </div>
+       <div class="hero__slide">
+        <img src="./image/4webp.webp" alt="">
+      </div>
+       <div class="hero__slide">
+        <img src="./image/1.webp" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="container about__container">
+
+    <h2 class="section-title">Джаспер и Песчаник</h2>
+
+    <p class="about__text">
+      В самом сердце исторического Суздаля, где каждый камень дышит историей, мы создали место для тех, кто ценит атмосферу. Крафтовое пиво, настойки и вкусная еда — здесь рождаются лучшие воспоминания.
+    </p>
+
+    <div class="about__buttons">
+      <button class="button button--accent" id="openMenuHero">
+        Смотреть меню
+      </button>
+
+      <a href="#contacts" class="button button--accent">
+        Наши контакты
+      </a>
+    </div>
+
+  </div>
+</section>
+
+ <!-- ================= FOOTER ================= -->
+<footer class="footer" id="contacts">
+  <div class="footer__container">
+
+    <h3 class="footer__title">Контакты и время работы</h3>
+
+    <div class="footer__info">
+      
+      
+      <div class="footer__address">
+        Суздаль, улица Ленина, 63А
+      </div>
+      
+      <div class="footer__phone">
+        <a href="tel:+79101889707">+7 (910) 188-97-07</a>
+      </div>
+      
+      <div class="footer__schedule">
+        <div class="schedule-item">
+          <span class="schedule-day">Понедельник</span>
+          <span class="schedule-time">Выходной</span>
+        </div>
+        <div class="schedule-item">
+          <span class="schedule-day">Вторник</span>
+          <span class="schedule-time">14:00 – 00:00</span>
+        </div>
+        <div class="schedule-item">
+          <span class="schedule-day">Среда</span>
+          <span class="schedule-time">14:00 – 00:00</span>
+        </div>
+        <div class="schedule-item">
+          <span class="schedule-day">Четверг</span>
+          <span class="schedule-time">14:00 – 00:00</span>
+        </div>
+        <div class="schedule-item">
+          <span class="schedule-day">Пятница</span>
+          <span class="schedule-time">14:00 – 02:00</span>
+        </div>
+        <div class="schedule-item">
+          <span class="schedule-day">Суббота</span>
+          <span class="schedule-time">14:00 – 02:00</span>
+        </div>
+        <div class="schedule-item">
+          <span class="schedule-day">Воскресенье</span>
+          <span class="schedule-time">14:00 – 00:00</span>
+        </div>
+      </div>
+    </div>
+
+    
+
+  </div>
+  <div class="footer__map">
+      <iframe src="https://yandex.ru/map-widget/v1/?ll=40.448182%2C56.420798&mode=search&oid=202014329074&ol=biz&sctx=ZAAAAAgBEAAaKAoSCVk0nZ0MNERAEfIolfCEEExAEhIJDJQUWABTxj8RP49Rnnk5rD8iBgABAgMEBSgKOABAwAFIAWoCcnWdAc3MzD2gAQCoAQC9AR9%2BNuXCAQbykfjH8AWCAg7QtNC20LDRgdC%2F0LXRgIoCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=40.448182%2C56.420798&sspn=0.043602%2C0.013676&text=%D0%B4%D0%B6%D0%B0%D1%81%D0%BF%D0%B5%D1%80&z=15" width="100%" height="100%" frameborder="0" allowfullscreen="true"></iframe>
+    </div>
+</footer>
+
+  <!-- ================= MODAL MENU ================= -->
+  <div class="modal" id="menuModal">
+    <div class="modal__overlay" id="closeMenu"></div>
+
+    <div class="modal__content">
+      <button class="modal__close" id="closeMenuBtn">&times;</button>
+
+      <h2 class="modal__title">Меню</h2>
+
+      <div class="menu">
+
+        <div class="menu__section">
+          <h3 class="menu__heading">Пицца</h3>
+          <ul class="menu__list">
+            <li>Маргарита</li>
+            <li>Пепперони</li>
+            <li>4 сыра</li>
+          </ul>
+        </div>
+
+        <div class="menu__section">
+          <h3 class="menu__heading">Гриль</h3>
+          <ul class="menu__list">
+            <li>Стейк</li>
+            <li>Рёбра</li>
+            <li>Курица</li>
+          </ul>
+        </div>
+
+        <div class="menu__section">
+          <h3 class="menu__heading">Пиво</h3>
+          <ul class="menu__list">
+            <li>Разливное</li>
+            <li>Крафтовое</li>
+            <li>Импорт</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
