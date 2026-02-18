@@ -172,6 +172,7 @@ svg * {
 
 html {
   scroll-behavior: smooth;
+  background: var(--color-primary);
 }
 
 body.page {
@@ -790,7 +791,7 @@ body.page {
   background-color: var(--color-beige);
   color: var(--color-primary-dark);
   text-decoration: none;
-  margin-top: 40px;
+  padding: 6px;
 }
 
 .footer-extra a {
