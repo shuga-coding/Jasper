@@ -198,7 +198,7 @@ body.page {
 .header {
   background: var(--color-primary);
   padding: 15px 0;
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 100;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -1271,12 +1271,12 @@ transform: translateY(40px);
   }
   
   .nav__list {
-    gap: 5px;
+    gap: 2px;
   }
   
   .nav__link,
   .nav__link--button {
-    font-size: 15px;
+    font-size: 10px;
     padding: 5px 10px;
   }
   
