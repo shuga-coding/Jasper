@@ -144,7 +144,7 @@ svg * {
   --color-white: #FFFFFF;
   --color-dark: #1A1A1A;
 
-  --font-heading: "Bad Script", cursive;
+  --font-heading: "Neucha", cursive;
   --font-body: "Neucha", cursive;
 
   --transition: 0.3s ease;
@@ -393,7 +393,7 @@ body.page {
 
 .about {
   background: var(--color-primary);
-  padding: clamp(60px, 10vh, 90px) 0;
+  padding: clamp(45px, 8vh, 70px) 0;
   text-align: center;
   position: relative;
 
@@ -437,7 +437,7 @@ body.page {
   font-family: var(--font-heading);
   font-size: clamp(42px, 8vw, 64px);
   color: var(--color-white);
-  margin-bottom: clamp(60px, 10vh, 90px);
+  margin-bottom: clamp(45px, 8vh, 70px);
   line-height: 1.2;
   position: relative;
   display: inline-block;
@@ -787,7 +787,6 @@ body.page {
 }
 
 .footer-extra {
-  padding-block: 15px;
   background-color: var(--color-beige);
   color: var(--color-primary-dark);
   text-decoration: none;
@@ -1175,6 +1174,7 @@ transform: translateY(40px);
   
   .footer__content {
     grid-template-columns: 1fr; /* Одна колонка на мобильных */
+    gap: 0;
   }
   
   .footer__info {
@@ -1184,6 +1184,9 @@ transform: translateY(40px);
   
   .footer__map {
     min-height: 300px;
+  }
+  .footer-extra{
+    margin-top: 0;
   }
   
   .schedule-section {
@@ -1319,7 +1322,7 @@ transform: translateY(40px);
   
   
   .footer__map {
-    height: 220px;
+    height: 100%;
   }
   
   .schedule-item {
@@ -1413,7 +1416,7 @@ transform: translateY(40px);
   }
   
   .footer__map {
-    height: 180px;
+    height: 100%;
   }
   
   .modal__title {
