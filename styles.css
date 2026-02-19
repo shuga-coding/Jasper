@@ -1189,6 +1189,15 @@ transform: translateY(40px);
   .footer-extra{
     margin-top: 0;
   }
+  .footer__address:hover{
+    display: none;
+  }
+  .footer__phone:hover{
+    display: none;
+  }
+  .footer__phone a:hover{
+    display: none;
+  }
   
   .schedule-section {
     padding: 40px 0 30px 0;
