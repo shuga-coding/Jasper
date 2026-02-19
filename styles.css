@@ -1199,7 +1199,7 @@ transform: translateY(40px);
   }
   
   .about__decor--beer {
-    top: -125px;
+    top: -115px;
     left: 5px;
   }
   
@@ -1376,7 +1376,9 @@ transform: translateY(40px);
     font-size: 15px;
   }
   
-
+ .about__decor--beer{
+    top: -107px;
+  }
 
  .about__decor--pizza {
   bottom: -127px;
